@@ -1,0 +1,14 @@
+{
+    "name": "tab sorter",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "tabGroups"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
